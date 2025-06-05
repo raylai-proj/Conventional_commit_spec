@@ -20,7 +20,7 @@ __&lt;type&gt;__ and __&lt;description&gt;__ are mandatory<br >
 
 ## type<br >
 __&lt;type&gt;__ can be one of the following:<br >
-1. feat: create a new feature<br >
+1. feat: add / remove a feature<br >
 2. fix: fix a bug<br >
 3. docs: adding document, such as comment<br >
 4. style: change the white space, code formatting, or sign missing (such as colon, single quotation marks, double quotation marks)<br >
