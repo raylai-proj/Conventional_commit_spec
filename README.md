@@ -35,7 +35,12 @@ __&lt;type&gt;__ can be one of the following:<br >
 
 ## Note<br >
 1. BREAKING CHANGE: BREAKING CHANGE in body or footer means breaking API change, such as change API endpoint, change return data type, change return value, which can be vary based on company policy.<br >
-
+2. some overlaps:<br >
+   a. `perf` and `style` can be `refactor`, so we can use these if possible and leave others to `refactor`<br >
+   b. Depend on changes, `perf` can be `feat`<br >
+   c. `build` and `ci` can overlap (usually pick the one we are solving), but if all fail, we can use `chore` instead<br >
+   d. you may still use `test` when add new feature (not `feat`) in test or fix bug in test (not `fix`)<br >
+   
 ## Examples<br >
 
 
