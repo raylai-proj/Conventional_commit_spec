@@ -9,7 +9,6 @@ The specification refer to below documents:<br >
 6. LinkedIn API Breaking Change Policy: https://learn.microsoft.com/en-us/linkedin/shared/breaking-change-policy<br >
 
 The conventional commits specification provides a set of rules for people to create explicit commit history to help commits readability.<br >
-Commit messages have header, body, footer, and should no longer than 100 characters<br >
 It is structured as belows:<br >
 
 &lt;type&gt; [optional scope]: &lt;description&gt;<br >
@@ -40,8 +39,26 @@ __&lt;type&gt;__ can be one of the following:<br >
    b. Depend on changes, `perf` can be `feat`<br >
    c. `build` and `ci` can overlap (usually pick the one we are solving), but if all fail, we can use `chore` instead<br >
    d. you may still use `test` when add new feature (not `feat`) in test or fix bug in test (not `fix`)<br >
+3. Commit messages have header, body(optional), footer(optional), and should no longer than `100` characters<br >
    
 ## Examples<br >
+1. commit without body:<br >
+   `docs: add overlap note`<br >
+2. commit with scope:<br >
+   `docs(changelog): update changelog to version 1.5`<br >
+3. commit message with description, body and BREAK CHANGE:<br >
+   ```
+   feat: append new string tuples
+   BREAK CHANGE: changing return data forma,
+   and add new string tuple (date enter hospital, date leave hospital) in the end to database
+   ```
+5. commit message for bug fix with issue number:<br >
+   ```
+   fix: add except for cancel clicking
+   add excepption for user clicking cancel when program prompting select excel files
+   fix issue #3
+   ```
+   
 
 
 
