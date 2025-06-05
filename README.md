@@ -1,5 +1,5 @@
 # Conventional_commit_spec
-This is a collection of documentary of conventional commit specification for quick commit usage and suggested commit tools for python.<br >
+This is a collection of documentary of conventional commit specification for quick commit usage and suggested commit tools.<br >
 The specification refer to below documents:<br >
 1. conventional commits: https://www.conventionalcommits.org/en/v1.0.0-beta.3/<br >
 2. the Angular convention: https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines<br >
