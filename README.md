@@ -66,6 +66,10 @@ __&lt;type&gt;__ can be one of the following:<br >
 3. help communicate with teammates and stackholders<br >
 4. can help trigger build and publish process<br >
 5. have more structural commit history and allow others to explore and contribute the project<br >
+
+## Recommended tools:<br >
+1. Tooling for Conventional Commits: https://www.conventionalcommits.org/en/about/<br >
+2. (Python) conventional-commit: https://pypi.org/project/conventional-commit/<br >
    
 
 
