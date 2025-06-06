@@ -7,6 +7,7 @@ The specification refer to below documents:<br >
 4. docs(Conventional Commits): Feat, Fix, Refactor… which is which?: https://medium.com/@noriller/docs-conventional-commits-feat-fix-refactor-which-is-which-531614fcb65a<br >
 5. Developer Blog Series: What Is A Breaking Change?: https://community.blackbaud.com/blogs/69/3219 <br >
 6. LinkedIn API Breaking Change Policy: https://learn.microsoft.com/en-us/linkedin/shared/breaking-change-policy<br >
+7. Introduction to Semantic Versioning: https://www.geeksforgeeks.org/introduction-semantic-versioning/<br >
 
 The conventional commits specification provides a set of rules for people to create explicit commit history to help commits readability.<br >
 It is structured as belows:<br >
@@ -40,6 +41,7 @@ __&lt;type&gt;__ can be one of the following:<br >
    c. `build` and `ci` can overlap (usually pick the one we are solving), but if all fail, we can use `chore` instead<br >
    d. you may still use `test` when add new feature (not `feat`) in test or fix bug in test (not `fix`)<br >
 3. Commit messages have header, body(optional), footer(optional), and should no longer than `100` characters<br >
+4. In SemVer, `fix` means `PATCH` release, `feat` means `MINOR` release, and `BREAKING CHANGE` in body means `MAJOR` release  
    
 ## Examples<br >
 1. commit without body:<br >
@@ -58,6 +60,12 @@ __&lt;type&gt;__ can be one of the following:<br >
    add excepption for user clicking cancel when program prompting select excel files
    fix issue #3
    ```
+## The main reason for using convertional commits:<br >
+1. use for automatically generating Changelogs<br >
+2. to help determine a semantic version bump<br >
+3. help communicate with teammates and stackholders<br >
+4. can help trigger build and publish process<br >
+5. have more structural commit history and allow others to explore and contribute the project<br >
    
 
 
