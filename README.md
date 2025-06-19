@@ -70,6 +70,7 @@ __&lt;type&gt;__ can be one of the following:<br >
 ## Recommended tools:<br >
 1. Tooling for Conventional Commits: https://www.conventionalcommits.org/en/about/<br >
 2. (Python) conventional-commit: https://pypi.org/project/conventional-commit/<br >
+3. (python) pre-commit: https://pre-commit.com/#plugins
    
 
 
