@@ -8,6 +8,7 @@ The specification refer to below documents:<br >
 5. Developer Blog Series: What Is A Breaking Change?: https://community.blackbaud.com/blogs/69/3219 <br >
 6. LinkedIn API Breaking Change Policy: https://learn.microsoft.com/en-us/linkedin/shared/breaking-change-policy<br >
 7. Introduction to Semantic Versioning: https://www.geeksforgeeks.org/introduction-semantic-versioning/<br >
+8. Commitizen: https://commitizen-tools.github.io/commitizen/<br >
 
 The conventional commits specification provides a set of rules for people to create explicit commit history to help commits readability.<br >
 It is structured as belows:<br >
@@ -70,7 +71,8 @@ __&lt;type&gt;__ can be one of the following:<br >
 ## Recommended tools:<br >
 1. Tooling for Conventional Commits: https://www.conventionalcommits.org/en/about/<br >
 2. (Python) conventional-commit: https://pypi.org/project/conventional-commit/<br >
-3. (python) pre-commit: https://pre-commit.com/#plugins
+3. (python) pre-commit: https://pre-commit.com/#plugins<br >
+4. (python) commitizen: https://commitizen-tools.github.io/commitizen/<br >
    
 
 
